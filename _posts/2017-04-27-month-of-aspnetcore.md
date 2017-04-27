@@ -10,6 +10,7 @@ categories: [1ppm]
 
 As a continuation of [1PPM challange]({{site.url}}/1ppm/12-Technical-Challanges/) I dived into uncharted territories of web development (something I was actively trying to avoid throughout my life so far).
 
+In this post I will briefly present my (only partially unwarranted) worries on web development as well as mention the courses I learned from and possible way forward.
 <!-- more -->
 
 # Drop off the race
