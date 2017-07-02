@@ -51,7 +51,7 @@ Here is a rough list of what this series will cover:
 
 I will not ask you to have any specific knowledge. Basic math should do. For the parts of the tutorial that cover interfacing to Pixhawk you might need some knowledge in programming and a computer running Linux.
 
-# My vision for people who will finish all the tutorials
+# My vision for those who will finish all the tutorials
 
 My goal is for you to be able to:
 
