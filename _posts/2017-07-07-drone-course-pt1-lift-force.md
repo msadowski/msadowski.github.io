@@ -1,5 +1,6 @@
 ---
 layout: post
+hidden: true
 comments: true
 title: Drone Course - Part 1 - Lift Force
 description: "Understanding lift force is crucial to understand the flight mechanics of aircraft (including drones). This concept is relevant to every single platform we will disuss during this drone course."

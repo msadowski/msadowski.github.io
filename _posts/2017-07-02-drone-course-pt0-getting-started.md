@@ -1,5 +1,6 @@
 ---
 layout: post
+hidden: true
 comments: true
 title: Drone Course - Part 0 - an introduction 
 description: "It has been 5 exactly 5 years since I started working with drones. Most of this time I used enourmous help of various blogs, and communities. It's high time to give back, hence this series of blog posts on drones."
