@@ -18,9 +18,9 @@ I was very fortunate to be selected as one of the participants of The Port hacka
 
 This year The Port [hosted 7 teams](http://theport.ch/home/the-port-2017/) that spent 60 hours at the CERN idea square working on their concepts and prototypes.
 
-Contrary to most hackathons The Port Hackathon starts way before participants start hacking. For example my team started brainstorming in September (the event took place 6th-8th of October). Speaking of my team...
-
 You can find the final presentations from all teams [here](http://cds.cern.ch/record/2288117?ln=en) (our team starts at 38:30).
+
+Contrary to most hackathons The Port Hackathon starts way before participants start hacking. For example my team started brainstorming in September (the event took place 6th-8th of October). Speaking of my team...
 
 ## Spes Spirae
 
