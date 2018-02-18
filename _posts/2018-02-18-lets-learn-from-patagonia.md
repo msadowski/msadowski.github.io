@@ -5,6 +5,10 @@ description: "My thoughts on Let My People Go Surfing - a book about Patagonia (
 modified: 9999-99-99
 comments: true
 tags: []
+image:
+  feature: patagonia_main.jpg
+  credit: Patagonia Works
+  creditlink: http://www.patagoniaworks.com/press/2016/9/6/let-my-people-go-surfing
 ---
 
 Just recently I read *Let my people Go Surfing: The Education of a Reluctant Businessman* and realized that it's quite probably one of the most impactful book I read in my life.
