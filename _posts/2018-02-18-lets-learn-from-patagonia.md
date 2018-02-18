@@ -2,7 +2,7 @@
 layout: post
 title: Let's learn from Patagonia
 description: "My thoughts on Let My People Go Surfing - a book about Patagonia (a sustainable outdoor clothing company), Yvon Chouinard and doing the right thing."
-modified: 9999-99-99
+modified: 2018-02-18
 comments: true
 tags: []
 image:
@@ -26,7 +26,7 @@ The book describes how Yvon Chouinard, a reluctant businessman, created Patagoni
 
 As for the books themselves I love the quality of paperbacks (at $7.22 on Amazon they are a steal, especially compared to $15.21 e-books). 
 
-<figure class="half center">
+<figure class="half">
 	<img src="{{site.url}}/images/patagonia_1_600.jpg" alt="">
 	<img src="{{site.url}}/images/patagonia_2_600.jpg" alt="">
 </figure>
