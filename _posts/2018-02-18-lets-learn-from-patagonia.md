@@ -26,15 +26,9 @@ The book describes how Yvon Chouinard, a reluctant businessman, created Patagoni
 
 As for the books themselves I love the quality of paperbacks (at $7.22 on Amazon they are a steal, especially compared to $15.21 e-books). 
 
-<figure class="third">
-	<img src="http://placehold.it/600x600.jpg" alt="">
-	<img src="http://placehold.it/600x600.jpg" alt="">
-	<img src="http://placehold.it/600x600.jpg" alt="">
-</figure>
-<figure class="third">
-	<img src="http://placehold.it/600x600.jpg" alt="">
-	<img src="http://placehold.it/600x600.jpg" alt="">
-	<img src="http://placehold.it/600x600.jpg" alt="">
+<figure class="half center">
+	<img src="{{site.url}}/images/patagonia_1_600.jpg" alt="">
+	<img src="{{site.url}}/images/patagonia_2_600.jpg" alt="">
 </figure>
 
 # Lessons learned from _Let My People Go Surfing_
