@@ -18,18 +18,14 @@ Just recently I read *Let my people Go Surfing: The Education of a Reluctant Bus
 
 [Patagonia](http://www.patagonia.com/home/) is an outdoor company producing technical clothing for range of activities, quite known for it's approach to sustainable production and environmental activism.
 
-# Let My People Go Surfing
-
-I found this book very inspiring. It was also the first time when I bought an e-book and after reading it I decided to buy two paperbacks as gifts ([Amazon reflink](http://amzn.to/2EcIthV)). 
-
-The book describes how Yvon Chouinard, a reluctant businessman, created Patagonia. I found the book to be very thought provoking and a very good lesson on business ethics and alternative approaches to running a company and taking care of employees.
-
-As for the books themselves I love the quality of paperbacks (at $7.22 on Amazon they are a steal, especially compared to $15.21 e-books). 
-
 <figure class="half">
 	<img src="{{site.url}}/images/patagonia_1_600.jpg" alt="">
 	<img src="{{site.url}}/images/patagonia_2_600.jpg" alt="">
 </figure>
+
+*Let My People Go Surfing* describes how Yvon Chouinard, a reluctant businessman, created Patagonia. I found the book to be very thought provoking and a very good lesson on business ethics and alternative approaches to running a company and taking care of employees.
+
+Without further due here is what I've taken from this book.
 
 # Lessons learned from _Let My People Go Surfing_
 
@@ -58,6 +54,17 @@ I like this idea a lot and I hope that more and more companies will start creati
 I think this approach could be easily applied in personal life too. If you an afford it you could donate money or your time to charities or organizations that actively try to improve your neighbourhood/communities/environment.
 
 The way I think of this taxation on personal level is connected with due diligence point that I raised earlier. You could choose an energy supplier that you know is investing heavily into renewables or you could pay extra for a free range chicken in your supermarket.
+
+# The book
+
+<figure class="half center">
+  <img src="{{site.url}}/images/dont_buy_this_jacket.jpg" alt="Don't Buy this Jacket Patagonia campaign">
+	<figcaption>Don't Buy This Jacket</figcaption>
+</figure>
+
+I found this book so inspiring that after buing and reading through the e-book I went ahead and bought two paperbacks, one for myself to keep and the second one as a gift ([Amazon reflink](http://amzn.to/2EcIthV)). 
+
+I love the visual design and print quality of paperbacks (at $7.22 on Amazon they are a steal, especially compared to $15.21 e-books).
 
 # Final notes
 
