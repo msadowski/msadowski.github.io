@@ -38,10 +38,10 @@ owner:
   name:           Mateusz Sadowski
   site:           https://msadowski.github.io/
   avatar:         images/avatar_face.jpg
-  bio:            "Mechatronics software developer interested in drones and robotics"
+  bio:            "Robotics/Drones/Software developer"
   email:          msadowski90@gmail.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: msadowski90 # if no twitter in this config, the twitter follow button will be removed
+  #twitter: msadowski90 # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
   github: msadowski
 
