@@ -21,7 +21,7 @@ Between 2014 and 2016 I was working at [SkyCircuits](http://www.skycircuits.com)
 I like drones! I started working with drones in 2012 and have been working with them since. I can offer my expertise in system design and integration, high level programming, sensor integration. I have experience working with proprietary and open source autopilots (e.g. Pixhawk).
 
 ## Robotics
-I speak ROS (Robot Operating System). I understand its strengths and weaknesses, if you are considering using ROS for your product let me know and let's discuss it!
+I speak ROS (Robot Operating System). I understand its strengths and weaknesses. I have a track of leading multiple robotics projects for various platforms such as multirotors, helicopters, mobile and industrial robots.
 
 ## Software Development
 I'm an experience C# developer (Windows Forms, WPF, UWP). I have years of experience of working on desktop applications such as drone flight management software, GUIs for software for autopilot interfacing, Pan-Tilt-Zoom camera control software. If you are looking for an extra developer for your team then feel free to contact me! 
