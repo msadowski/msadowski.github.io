@@ -18,8 +18,8 @@ url:              https://msadowski.github.io
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'About'
-    url : '/about'
+  - title: 'Hire Me'
+    url: '/hireMe'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
@@ -39,7 +39,7 @@ owner:
   site:           https://msadowski.github.io/
   avatar:         images/avatar_face.jpg
   bio:            "Robotics/Drones/Software developer"
-  email:          msadowski90@gmail.com
+  email:          mat@msadowski.ch
   # Twitter nick for use in Twitter cards and follow button.
   #twitter: msadowski90 # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
