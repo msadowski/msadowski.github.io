@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: Hire Me
+description: "A Consultant in Robotics, Drones and Software Development available for hire in Geneva Area and most of Europe. I'm also available for remote work."
 share: true
 comments: false
 ---
