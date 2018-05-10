@@ -11,7 +11,7 @@ The other day I’ve been struggling with including vector graphics in a WPF app
 
 <!-- more -->
 
-##1. Svg To Xaml
+## 1. Svg To Xaml
 
 In your git client navigate to the directory where you want to put the solution and clone it:
 
@@ -34,12 +34,12 @@ Now, when you start the project the program should launch:
     <figcaption>SvgToXaml in action</figcaption>
 </figure>
 
-##2. Creating a test solution
+## 2. Creating a test solution
 Let’s start by creating new project in Visual Studio (WPF App) and let’s name it SvgTest. Once created, in the solution explorer right click on the SvgTest project -> Add -> New Folder. Name it Assets.
  
 
 
-##3. Converting SVG to Xaml
+## 3. Converting SVG to Xaml
 Let’s get geeky and download a NASA .svg logo: 
 <figure class="center">
   <img src="{{site.url}}/images/NASA.svg" alt="NASA logo in .svg">
@@ -57,7 +57,7 @@ Export the generated .xaml file to **Assets** folder in the SvgTest project with
 
 Congrats! You have now exported your first .svg to xaml!
 
-##4. Importing the .xaml file to the project
+## 4. Importing the .xaml file to the project
 Open up your SvgTest project in Visual Studio and in the Solution Explorer right click on Assets folder -> Add -> Existing Item. Navigate to Assets Directory and select the file visibility to All Files. You should be able to see the NASA.xaml file in the directory
 <figure class="center">
   <img src="{{site.url}}/images/svg_3.png" alt="Adding an existing asset to WPF project">
@@ -70,7 +70,7 @@ Now you should see NASA.xaml in your Solution Explorer and you should be able to
     <figcaption>Geometries. Lots of Geometries.</figcaption>
 </figure>
 
-##5. Using generated .xaml in WPF application
+## 5. Using generated .xaml in WPF application
 Let’s now use our vector image in the WPF application. First thing we need to do is to add the .xaml file with our image to Application Resources. Double click App.xaml and add a Resource Dictionary to Application.Resources:
 {% highlight xml %}
 <Application.Resources>
@@ -99,5 +99,5 @@ Aaaand takeoff! Our image should be displayed in our main form:
 
 Once we compile and run the program you should be able to resize the main window without losing quality. How awesome is that?!
 
-##6. Homework
+## 6. Homework
 In a default view, when debugging, Visual Studio shows the graph with Process Memory. What happens with the logo when we resize the application? Why does it happen? 
