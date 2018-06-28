@@ -7,7 +7,7 @@ comments: false
 ---
 
 # About me
-I'm an independent contractor in the fields of Robotics, Drones and Software Development based in Geneva, Switzerland. If you would like to know more and potentially work with me, please feel free to get in [touch](mailto:{{{site.owner.email}}).
+I'm an independent contractor in the fields of Robotics, Drones and Software Development based in Geneva, Switzerland. If you would like to know more and potentially work with me, please feel free to get in [touch](mailto:{{site.owner.email}}).
 
 I graduated with a master science degree in Mechatronics Design. It wasn't exactly a rocket science... Actually it was! One of the highlights of my studies is a [sounding rocket launch campaign]({{site.url}}/Space-technology-rocket-campaign/).
 
