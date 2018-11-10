@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Handle dead nodes in ROS
+title: Handling dead nodes in ROS
 description: "There are various ways you can get information on the state of the nodes in your ROS based system. This post discusses using 3 different methods to handle zombie or abnormally exited ROS nodes."
 modified: 2018-11-10
 comments: true
