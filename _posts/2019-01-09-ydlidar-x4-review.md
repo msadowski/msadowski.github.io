@@ -4,7 +4,7 @@ title: YDLIDAR X4 - ROS review
 description: "Lately I had a chance to thoroughly test YDLIDAR X4 lidar with the relevant ROS packages. This post summarizes my experience working with this cheap LIDAR and highlight its strengths and weaknesses."
 modified: 2019-01-09
 comments: true
-tags: [ROS, Robotics]
+tags: [ROS, Robotics, Sensors]
 image:
   feature: ydlidar/ydlidar.jpg
 ---
@@ -37,7 +37,7 @@ I tested the LIDAR with [EAIBOT ydlidar package](https://github.com/EAIBOT/ydlid
 
 {% highlight xml %}
   <node name="ydlidar_node"  pkg="ydlidar"  type="ydlidar_node" output="screen">
-    <param name="port"         type="string" value="/dev/ydlidar"/>  
+    <param name="port"         type="string" value="/dev/ydlidar"/>
     <param name="baudrate"     type="int"    value="115200"/>
     <param name="frame_id"     type="string" value="laser_frame"/>
     <param name="angle_fixed"  type="bool"   value="true"/>
@@ -60,7 +60,7 @@ There are also issues with the package. First of all changing the frequency para
 
 ## General feel
 
-Given the price there is nothing to complain about when it comes to X4. I've been pretty happy with it so far, if you are looking for a low cost 2D LIDAR and you don't mind a relatively slow update rate then I would say the X4 is worth a shot. 
+Given the price there is nothing to complain about when it comes to X4. I've been pretty happy with it so far, if you are looking for a low cost 2D LIDAR and you don't mind a relatively slow update rate then I would say the X4 is worth a shot.
 
 Looking just through the [YDLIDAR website](http://ydlidar.com/product/X4) you might not realise that the usb port is not directly connected to the LIDAR but instead an adapter board is used:
 
