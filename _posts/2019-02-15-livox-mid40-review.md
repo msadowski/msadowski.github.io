@@ -9,7 +9,7 @@ image:
   feature: livox/livox_mid40.jpg
 ---
 
-Continuing on my excursion in LiDAR testing I gave a Livox Mid-40 as spin. This post sums up my experience working with it for couple of days.
+Continuing on my excursion in LiDAR testing I gave a Livox Mid-40 a spin. This post sums up my experience working with it for couple of days.
 
 <!-- more -->
 
