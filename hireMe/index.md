@@ -7,22 +7,46 @@ comments: false
 ---
 
 # About me
-I'm an independent contractor in the fields of Robotics, Drones and Software Development based in Geneva, Switzerland. If you would like to know more and potentially work with me, please feel free to get in [touch](mailto:{{site.owner.email}}).
 
-I graduated with a master science degree in Mechatronics Design. It wasn't exactly a rocket science... Actually it was! One of the highlights of my studies is a [sounding rocket launch campaign]({{site.url}}/Space-technology-rocket-campaign/).
+I have 5 years of experience working in Robotics industry as a Consultant, R&D Application Engineer and Software Developer. In this page you will learn more about my expertise and experience.
 
-From November 2016 until May 2018 I've worked with Terabee as an R&D Application Engineer. I mostly helped integrating ToF distance sensors on UAV platforms for performing altitude hold, obstacle and collision avoidance. I also helped develop custom mobile robotics solutions using Robot Operating System (ROS).
+## Robotics expertise
 
-Between 2014 and 2016 I was working at [SkyCircuits](http://www.skycircuits.com) where I was writing ground control station software for UAV autopilots and even led an autopilot integration project on 50kg+ helicopter platform (by the way, it was super cool!).
+As a robotics consultant I can offer the following:
 
-# Hire me!
+* Consultancy and development of robot architectures for custom robots with Robot Operating System (ROS)
+* Development of drivers for [ArduPilot](http://ardupilot.org/copter/) and [Px4](https://px4.io/) open source autopilots and ROS
+* Implementation of existing solution on custom robot platforms (such as robot_hardware_interface, move_base and ros_control)
+* Development of high level functionality for any mobile robot or drone platform
+* Hardware In the Loop (HIL) development for existing platforms
+* Hardware and sensor integration on custom robot platforms
 
-## Drones
-I like drones! I started working with drones in 2012 and have been working with them since. I can offer my expertise in system design and integration, high level programming, sensor integration. I have experience working with proprietary and open source autopilots (e.g. Pixhawk).
+## Project highlights
 
-## Robotics
-I speak ROS (Robot Operating System). I understand its strengths and weaknesses. I have a track of leading multiple robotics projects for various platforms such as multirotors, helicopters, mobile and industrial robots.
+Below you will find highlights on the projects I've been working on over the years:
 
-## Software Development
-I'm an experience C# developer (Windows Forms, WPF, UWP). I have years of experience of working on desktop applications such as drone flight management software, GUIs for software for autopilot interfacing, Pan-Tilt-Zoom camera control software. If you are looking for an extra developer for your team then feel free to contact me! 
+* Development of library for custom UAV autopilot control using any HMI (Human Machine Interface) through Lua Scripts
+* Autopilot integration on existing 50+ kg UAV helicopter
+* Development of proof of concept system for Speed and Separation Monitoring (SSM) for industrial robot arms
+* Implementation of object avoidance on ArduPilot based multirotors utilizing an array of time of flight sensors
+* Architecture and development of ROS based modular mobile robot
+* Development of a handheld mapping device for creation of 2D floor plans
+
+## Environmental outlook
+
+<figure class="half center">
+  <img src="{{site.url}}/images/Member_Logo.png" alt="1% For the Planet logo">
+  <!-- <figcaption>Livox scan patterns</figcaption> -->
+</figure>
+
+In January 2019 I joined [1% For The Planet](https://www.onepercentfortheplanet.org/), pledging to donate 1% of my revenue to environmental organizations.
+
+## Get in touch
+
+You can get in touch with me by sending me an [e-mail](mailto:contact@msadowski.ch). If you would like to work through an intermediary then I'm present at [UpWork](https://www.upwork.com/), where I am a Top Rated freelancer and hold a 100% job success score. Feel free to send me an e-mail for more details.
+
+<figure class="half center">
+  <img src="{{site.url}}/images/UpWork-Top-Rated.jpg" alt="UpWork top rated badge">
+  <!-- <figcaption>Livox scan patterns</figcaption> -->
+</figure>
 
