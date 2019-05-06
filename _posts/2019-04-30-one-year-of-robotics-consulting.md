@@ -5,6 +5,8 @@ description: "It has been one year since I decided to go solo and start working 
 modified: 2019-04-30
 comments: true
 tags: [ROS, Robotics]
+image:
+  feature: M_consulting_cropped.png
 ---
 
 It has been one year since I decided to go solo and start working as a Robotics consultant/contractor. In this post I'll sum up my experience so far.
