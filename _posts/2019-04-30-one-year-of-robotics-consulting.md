@@ -53,9 +53,9 @@ When starting out I was describing myself as "Robotics and Drones Consultant" bu
 
 * C# software for interfacing with 2 Pan-Tilt-Zoom cameras and tracking regions of interest
 * Drivers for Pixhawk/ArduCopter for a time of flight sensor
-* ROS architecture and software development for a modular robot
+* ROS based software and architecture development for mobile robots by [Robosynthesis](http://robosynthesis.com/)
 * A 2D/3D handheld mapping module
-* Robotics retrofit kit for mobile industrial machine
+* Helping [Greenzie](https://www.greenzie.co/) implement ros_control and hardware_interface for their autonomous mower kit
 * Two small projects related to VTOL aircraft utilising Pixhawk autopilots
 
 All in all close to 95% of the work I'm doing is related to ROS (Robot Operating System). Here are some things that I've learned:
