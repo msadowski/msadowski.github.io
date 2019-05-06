@@ -27,9 +27,9 @@ One reason why I wanted to have values defined early on is that I believe it mak
 
 ## UpWork
 
-I've been working as a freelancer on UpWork since I started my activity and it had worked quite well! Robotics being a niche field on UpWork there is a low number of contracts available but on the other hand there are not many applicants. On average I apply to 2 contracts a month and on average I'm invited 4 times for a job interview through the platform (most of the time it's for a 10+ hour tasks for $50 though).
+I've been working as a freelancer on UpWork since I started my activity and it had worked quite well! Robotics being a niche field on UpWork there is a low number of contracts available but on the other hand there are not many applicants. On average I apply to 2 contracts a month and on average I'm invited 4 times for a job interview through the platform (most of the time it's for a 10+ hour tasks priced at $50 though).
 
-UpWork charges 20% fee for the first $500 earned (after that it drops to 10% until $10k when it drops to 5%). The advantage of it is that UpWork works as an intermediary and guarantees payment four hourly contracts.
+UpWork charges 20% fee for the first $500 earned (after that it drops to 10% until $10k when it drops to 5%). The price is quite steep, especially in the beginning. Some of the value freelancers get out of it is guaranteed payment for hourly contract and not having to worry about getting paid.
 
 After about 6 months of working on UpWork I've earned a Top Rated badge and a 100% job success score.
 
