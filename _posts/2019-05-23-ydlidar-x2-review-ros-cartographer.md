@@ -1,6 +1,6 @@
 ---
 layout: post
-title: YDLIDAR X2 - ROS review and running it with Cartographer
+title: YDLIDAR X2 - ROS review and Cartographer setup
 description: "I've run some tests on YDLIDAR X2. This blog post summarizes the experience and shows the LiDAR working with Google Cartographer."
 modified: 2019-05-23
 comments: true
