@@ -36,7 +36,7 @@ X2, similarly to X4, is a 360° LiDAR that is belt driven by a small motor. Stru
 	<figcaption>YDLIDAR X4 (left) vs YDLIDAR X2 (right)</figcaption>
 </figure>
 
-Compared to X4 the X2 has a lower scanning range (8m compared to 10m) and slightly higher resolution (2% for X2 compared to 1% for X4). The default scan rate of X2 7Hz, however it can be adjusted using PWM signal.
+Compared to X4 the X2 has a lower scanning range (8m compared to 10m) and slightly lower resolution (2% for X2 compared to 1% for X4). The default scan rate of X2 7Hz, however it can be adjusted using PWM signal.
 
 What I especially like about the X2 is the upgraded interface box that is now enclosed in plastic and the data port is now a USB C port (there is still an extra micro USB port for power, which I didn't need to use so far).
 
