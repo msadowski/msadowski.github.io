@@ -25,7 +25,7 @@ This month I received a sample X2 LiDAR from YDLIDAR. In this blog post I'm docu
 |Max current | 500mA |
 |Laser wavelength | 775-795nm|
 |Laser power | 3-5mW|
-|Price | ~89 USD |
+|Price | ~69 USD |
 
 ## General feel and comparison to YDLIDAR X4
 
