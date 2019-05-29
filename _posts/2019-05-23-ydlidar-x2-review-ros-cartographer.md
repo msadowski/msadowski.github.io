@@ -114,6 +114,6 @@ Unfortunately I didn't get to test the LiDAR in full sunlight (we didn't get muc
 ## Useful links
 
 * YDLIDAR ROS repository: [https://github.com/YDLIDAR/ydlidar/](https://github.com/YDLIDAR/ydlidar/)
-* YDLIDAR webpage: [http://ydlidar.com/](http://ydlidar.com/)
+* YDLIDAR datasheets: [http://www.ydlidar.com/download](http://www.ydlidar.com/download)
 * YDLIDAR X2 on Amazon: [https://www.amazon.com/dp/B07S35L2NG](https://www.amazon.com/dp/B07S35L2NG)
 * Cartographer ROS documentation: [https://google-cartographer-ros.readthedocs.io/en/latest/](https://google-cartographer-ros.readthedocs.io/en/latest/)
