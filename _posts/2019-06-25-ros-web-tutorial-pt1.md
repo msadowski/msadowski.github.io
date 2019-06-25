@@ -48,14 +48,14 @@ mkdir ~/catkin_ws/src/robot_gui_bridge/launch
 touch ~/catkin_ws/src/robot_gui_bridge/launch/websocket.launch
 {% endhighlight %}
 
-The contents of the launch file will be very simple:
+The contents of this file will be very simple:
 {% highlight xml %}
 <launch>
   <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
 </launch>
 {% endhighlight %}
 
-Finally let's test our launch file:
+Finally let's test it:
 {% highlight shell %}
 cd ~/catkin_ws/
 catkin build # or catkin_make
@@ -321,3 +321,9 @@ There is a lot to do if you would like to improve our solution! Here is some hom
 4. Launch some robot in Gazebo and drive it around using the GUI
 
 If you found this tutorial useful feel free to let me know in the comments! There are two more tutorials coming: in the second part of this tutorial we will look into camera libraries in ROS and in the third tutorial we will look exclusively into ros web video server.
+
+
+With some more effort you could turn it into something resembling the [Robosynthesis](https://www.robosynthesis.com/) User Interface.
+<figure class="center">
+  <img src="/images/ros_tutorials/1_full_gui.png" alt="Robosynthesis User Interface">
+</figure>
