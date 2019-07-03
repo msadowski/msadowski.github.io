@@ -21,7 +21,7 @@ The tutorial below assumes the following tools:
 * A UVC enabled camera (a standard webcam should do)
 
 Knowledge requirements:
-* Completion of ROS beginner and Intermediate tutorials from [ROS wiki](http://wiki.ros.org/ROS/Tutorials)
+* Completion of ROS beginner and intermediate tutorials from [ROS wiki](http://wiki.ros.org/ROS/Tutorials)
 
 ## UVC
 
