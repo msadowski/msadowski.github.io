@@ -87,7 +87,7 @@ Usually we will want to use these settings to control how much bandwidth our cam
 As shown before you can append settings to the stream url using `&`. An example using all of the available settings is:
 
 {% highlight shell %}
-http://0.0.0.0:8080/stream?topic=/image_raw&type=mjpeg&quality=10&invert&width=640&height=400&default_transport=compressed.
+http://0.0.0.0:8080/stream?topic=/image_raw&type=mjpeg&quality=10&invert&width=640&height=400&default_transport=compressed
 {% endhighlight %}
 
 ### Video based streams
