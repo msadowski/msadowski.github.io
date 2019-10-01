@@ -34,6 +34,9 @@ sitemap: false
     {{ post.content | xml_escape }}
     {% include feed-footer.html %}
   </content>
+  {% for tag in post.tags %}
+    <category> {{tag}} </category>
+  {% endfor %}
 </entry>
 {% endfor %}
 </feed>
