@@ -117,3 +117,19 @@ Working with the ROS package was a matter of downloading it, changing a broadcas
 I quite enjoyed working with the Mid-40. I especially liked how easy was the setup (provided you have 10-16V power supply and a router it's basically Plug&Play). What I missed from the documentation and I think is the minimum range that seems to be around 1m. Apart from that I was thoroughly impressed with the maximum range of the LiDAR and how clean the obtained data was. The ROS package is OK for something that has been developed for a month and I'm sure it will be improved over time.
 
 What I think will be the biggest challenge that Livox will face is the technology adoption. I tried to test it with [HDL Graph Slam](https://github.com/koide3/hdl_graph_slam), however with default parameters I couldn't get a reliable SLAM output. I think the main issue might be what I would call "time to point revisit" (a time between two consecutive measurements of the same point). Given that in most of the traditional LiDARs the same points are revisited at every scan Livox might need to open a new era of SLAM tools that will support a new scan patterns.
+
+## Update (10th of October 2019)
+
+I think it's high time to update this post with some of the developments that had happend since I've tested the LiDAR.
+
+### Loam Livox
+
+[Loam Livox](https://github.com/hku-mars/loam_livox) is an odometry and mapping package created by Jiarong Lin. The demonstrators look quite promising and as soon as I have some spare time on my hand I'll run an extensive test of it and post some bag files for you.
+
+### Special firmware
+
+Livox had published a [repository with special firmware](https://github.com/Livox-SDK/Special-Firmwares-for-Livox-LiDARs). Among them we will find firmware that enables:
+
+* [Mulit-return support](https://github.com/Livox-SDK/Special-Firmwares-for-Livox-LiDARs/blob/master/Multi-return_Firmware_For_Livox_MID/README.md) - this is the one I'm most excited about as it allows using the LiDAR in forestry applications
+* [Threadlike-Noise Filtering](https://github.com/Livox-SDK/Special-Firmwares-for-Livox-LiDARs/blob/master/Threadlike-Noise_Filtering_Firmware_For_Livox_MID/README.md)
+* [Short blind zone](https://github.com/Livox-SDK/Special-Firmwares-for-Livox-LiDARs/blob/master/Short-blind-zone_Firmware_For_Livox_MID/README.md) - decreasing the minimum range from 1m to 0.3m
