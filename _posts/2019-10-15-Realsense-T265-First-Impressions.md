@@ -9,7 +9,7 @@ image:
   feature: t265.jpg
 ---
 
-In this post I will write about my first impressions after working with Realsense T265 on a wheeled mobile robot and give some tips on the configuration I think is most correct with respect to ROS standard.
+In this post I will write about my first impressions after working with Realsense T265 on a wheeled mobile robot and give some tips on the configuration I think is most correct with respect to ROS standards.
 
 <!-- more -->
 
@@ -17,7 +17,7 @@ In this post I will write about my first impressions after working with Realsens
 
 <figure class="center">
     <img src="{{site.url}}/images/dev_platform.jpg" alt="Mobile robot">
-    <figcaption>Robosynthesis development platform used for slam_toolbox evaluation</figcaption>
+    <figcaption>Robosynthesis development platform</figcaption>
 </figure>
 
 I've tested the T265 on a Robosynthesis Dev Platform that you might have seen it in my [previous post](https://msadowski.github.io/hands-on-with-slam_toolbox/). While working with the T265 tracking camera I spent a fair bit of time going through the documentation and ROS package source code, hope that any of the insights I describe in this post will help you get started.
@@ -71,8 +71,8 @@ Here are some of the considerations for creating a most proper setup with ROS pa
 First of all, I like my sensor frames being relative to the base_link frame of my robot platform. Therefore in my urdf description I would define a static base_link to the camera pose_frame (the ROS one). To have this working we need to set "publish_odom_tf" parameter to false (this way we ensure that the camera pose_frame has a single parent, a base_link).
 
 Say we would like to use the camera as a source of odometry. My suggestion for getting there is to:
-* Run a [robot_localization node](http://docs.ros.org/melodic/api/robot_localization/html/index.html) that will listen to the odometry message from T265 and publish an odom->base_link transform. That way we can easily ensure that the tree is continuous.
-* Set enable_pose_jumping parameter to false so that the pose of the robot in odometry frame is continuous (**WARNING** read this section until the end before implementing it since it might cause significant errors). Some of the packages you might be using might make some assumptions following REP-105 so better safe than sorry.
+* Run a [robot_localization node](http://docs.ros.org/melodic/api/robot_localization/html/index.html) that will listen to the odometry message from T265 and publish an odom->base_link transform. That way we can easily ensure that the tree is continuous
+* Set enable_pose_jumping parameter to false so that the pose of the robot in odometry frame is continuous (**WARNING** read this section until the end before implementing it since it might cause significant errors). Some of the packages you might be using might make some assumptions following REP-105 so better safe than sorry
 * Optional: create a t265 filter node that will change the odometry frame_id from the pose_frame to base_link. That way you should be able to directly compare the various odometry sources on your platform (at least comparing the wheel odometry against the t265 odometry sounds like an interesting experiment)
 
 I successfully run some tests with the first two points from the above list and I was quite satisfied with how 'clean' the setup was w.r.t. ROS good practices. Because of [velocity drift](https://github.com/IntelRealSense/librealsense/issues/4876) that I observed on multiple occasions in my setup I stopped looking into it.
