@@ -21,9 +21,7 @@ What my data lacks is groundtruth as at the moment I don't have a way to capture
 
 ## evo
 
-I found evo, while doing research for my newsletter Weekly Robotics and featured it in [issue #58](https://weeklyrobotics.com/weekly-robotics-58).
-
-As per the description on [project website](https://michaelgrupp.github.io/evo/):
+I found evo, while doing research for my newsletter Weekly Robotics and featured it in [issue #58](https://weeklyrobotics.com/weekly-robotics-58). As per the description on [project website](https://michaelgrupp.github.io/evo/):
 
 > This package provides executables and a small library for handling, evaluating and comparing the trajectory output of odometry and SLAM algorithms.
 
