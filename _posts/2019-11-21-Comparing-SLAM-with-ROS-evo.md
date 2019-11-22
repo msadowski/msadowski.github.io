@@ -2,7 +2,7 @@
 layout: post
 title: Comparing SLAM results using ROS and evo
 description: "In this blog post I look into comparing results from two ROS SLAM packages using evo Python package on data from processed bag files."
-modified: 2019-11-22
+modified: 2019-11-21
 comments: true
 tags: [ROS, Robotics]
 image:
@@ -20,6 +20,8 @@ Recently I've started working a lot with various SLAM packages in ROS using the 
 What my data lacks is groundtruth as at the moment I don't have a way to capture it. This post describes the way to evaluate output of two SLAM methods against one another.
 
 ## evo
+
+I found evo, while doing research for my newsletter Weekly Robotics and featured it in [issue #58](https://weeklyrobotics.com/weekly-robotics-58).
 
 As per the description on [project website](https://michaelgrupp.github.io/evo/):
 
