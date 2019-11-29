@@ -61,8 +61,6 @@ Here is a short gif showing our first test, driving the robot at a reasonable sp
 
 And if you'd like to see some of the raw data used during the above session then you can download the bag file [here](https://drive.google.com/file/d/1S6ceDqPf1Z_5Pq49td9y3ZL9Jpdyc1Ok/view?usp=sharing).
 
-So far the best thing for us about this package is the performance. With the above test it was consuming less than 7% CPU on our small i7 PC that we use for robot development.
-
 ## Taking it further
 
 What you've seen in this blog post are only the first trials with this SLAM package. If you take a look at the [configuration files](https://github.com/SteveMacenski/slam_toolbox/blob/melodic-devel/config/mapper_params_online_async.yaml) you will see that there are lots of parameters that can be tuned.
