@@ -90,7 +90,7 @@ You would run them as follows: `evo_rpe bag merged.bag run_1_pose run_2_pose --p
 	<figcaption>Relative Pose Error results on my data</figcaption>
 </figure>
 
-What I'm showing here is probably a tip of the ice berge, for more information about evo please see [the wiki](https://github.com/MichaelGrupp/evo/wiki).
+What I'm showing here is probably a tip of the ice berg, for more information about evo please see [the wiki](https://github.com/MichaelGrupp/evo/wiki).
 
 ## Results discussion
 
