@@ -31,7 +31,7 @@ The only difference from the previous posts is that I added an IMU, therefore th
 
 ## First LaMa impressions
 
-LaMa is the library developed by Intelligent Robotics and Systems (IRIS) Laboratory at University of Aveiro. The package is maintained by [Eurico F. Pedrosa](https://github.com/eupedrosa) and is open sourced under BSD 3-Clause licence.
+LaMa is the library developed by Intelligent Robotics and Systems (IRIS) Laboratory at the University of Aveiro. The package is maintained by [Eurico F. Pedrosa](https://github.com/eupedrosa) and is open sourced under BSD 3-Clause licence.
 
 Getting started with LaMa was very simple - pull the two repositories, build them, change couple of parameters (scan_topic, global_frame_id, odom_frame_id, base_frame_id) to match my platform and run it.
 
@@ -49,7 +49,7 @@ In this blog post I'll focus on the first two nodes.
     <figcaption>SLAM with LaMa</figcaption>
 </figure>
 
-The first impression I got using this SLAM package was that it "just works". Out of the box without tuning any parameter values except of the frame name changes the SLAM seemed to perform very well. For the full parameter list you can see the [project readme](https://github.com/iris-ua/iris_lama_ros/blob/master/README.md). I found that the number of parameters you can tune is smaller than in case of other packages I used so far (looking at you Cartographer). The good thing about it is that you don't need to spend so much time tuning the parameters to get good results, on the other hand you might not have so much flexibility.
+The first impression I got using this SLAM package was that it "just works". Out of the box without tuning any parameter values except for the frame name changes the SLAM seemed to perform very well. For the full parameter list you can see the [project readme](https://github.com/iris-ua/iris_lama_ros/blob/master/README.md). I found that the number of parameters you can tune is smaller than in case of other packages I used so far (looking at you Cartographer). The good thing about it is that you don't need to spend so much time tuning the parameters to get good results, on the other hand you might not have so much flexibility.
 
 ### Localization
 
@@ -63,32 +63,32 @@ Since I already covered slam_toolbox in one of my [previous posts](https://msado
 
 Above you will find a video comparison of online SLAM with iris_lama compared to slam_toolbox. I run the two solutions with default configs and only changed the platform related settings (mostly the names of frames and LiDAR range). Here are some of my observations on LaMa:
 * Visually the position estimate of LaMa looks a bit smoother (less discrete jumps)
-* Erroneus readings from my LiDAR are added to the map in LaMa (you can see points appearing way outside of the map)
-* The very small features seem to be missing from te map (you can see that well in the upper right corner of the map)
+* Erroneous readings from my LiDAR are added to the map in LaMa (you can see points appearing way outside of the map)
+* The very small features seem to be missing from the map (you can see that well in the upper right corner of the map)
 
 It's quite possible that some of the things above can be tuned through parameters, however I didn't find any obvious parameters described in the readme file.
 
 Another thing I wanted to know is how does the position estimates compare. For this reason I have used the [evo Python Package](https://michaelgrupp.github.io/evo/) and described my workflow in full in my [previous post](https://msadowski.github.io/Comparing-SLAM-with-ROS-evo/). In the screenshots below I have used the output from iris_lama as a ground truth:
 
 <figure class="half">
-	<img src="/images/ros_slam/rpe_3.png">
-	<img src="/images/ros_slam/rpe_4.png">
-	<figcaption>Relative Pose Error results on my data</figcaption>
+    <img src="/images/ros_slam/rpe_3.png">
+    <img src="/images/ros_slam/rpe_4.png">
+    <figcaption>Relative Pose Error results on my data</figcaption>
 </figure>
 
-What these images tell us is that most of the time the output of the both packages is quite close to one another (you can right click on the image to see it in full size). The issues with this comparison is that without ground truth we can't say anything more about it, which brings me to the next section.
+What these images tell us is that most of the time the output of both packages is quite close to one another (you can right click on the image to see it in full size). The issues with this comparison is that without ground truth we can't say anything more about it, which brings me to the next section.
 
 ### CPU usage
 
 I think the biggest advantage of iris_lama is its low CPU usage (In the project readme author says that it runs great on Raspberry Pi 3B+). Here is the comparison of CPU usage of iris_lama (left) and slam_toolbox (right).
 
 <figure class="half">
-	<img src="/images/ros_slam/lama_cpu.png">
-	<img src="/images/ros_slam/slam_toolbox_cpu.png">
-	<figcaption>CPU usage comparison between the two packages</figcaption>
+    <img src="/images/ros_slam/lama_cpu.png">
+    <img src="/images/ros_slam/slam_toolbox_cpu.png">
+    <figcaption>CPU usage comparison between the two packages</figcaption>
 </figure>
 
-You will see that the LaMa CPU usage peaks at around 15% and slam_toolbox at 450%. I hope that one day I will get to repeat this experiment in a larger environment and see how both packages manage it. I grabbed the CPU usage of both packages using [cpu_monitor](https://github.com/pumaking/cpu_monitor) package and running it along the bag file with raw data and each SLAM package. Then I ploted the output using [PlotJuggler](https://github.com/facontidavide/PlotJuggler).
+You will see that the LaMa CPU usage peaks at around 15% and slam_toolbox at 450%. I hope that one day I will get to repeat this experiment in a larger environment and see how both packages manage it. I grabbed the CPU usage of both packages using [cpu_monitor](https://github.com/pumaking/cpu_monitor) package and running it along the bag file with raw data and each SLAM package. Then I plotted the output using [PlotJuggler](https://github.com/facontidavide/PlotJuggler).
 
 ## Links
 
