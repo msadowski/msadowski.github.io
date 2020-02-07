@@ -43,10 +43,10 @@ In January 2019 I joined [1% For The Planet](https://www.onepercentfortheplanet.
 
 ## Get in touch
 
-You can get in touch with me by sending me an [e-mail](mailto:contact@msadowski.ch). If you would like to work through an intermediary then I'm present at [UpWork](https://www.upwork.com/), where I am a Top Rated freelancer and hold a 100% job success score. Feel free to send me an e-mail for more details.
+You can get in touch with me by sending me an [e-mail](mailto:contact@msadowski.ch). If you would like to work through an intermediary then I'm present at [UpWork](https://www.upwork.com/o/profiles/users/~0196b3ccb97605e632/), where I am a Top Rated freelancer and hold a 100% job success score. Feel free to send me an e-mail for more details.
 
 <figure class="half center">
+  <a href="https://www.upwork.com/o/profiles/users/~0196b3ccb97605e632/">
   <img src="{{site.url}}/images/UpWork-Top-Rated.jpg" alt="UpWork top rated badge">
-  <!-- <figcaption>Livox scan patterns</figcaption> -->
+  </a>
 </figure>
-
