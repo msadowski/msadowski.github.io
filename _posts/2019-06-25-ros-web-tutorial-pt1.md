@@ -155,6 +155,8 @@ To test this code follow these steps:
 4. In terminal publish to /txt_msg topic: `rostopic pub /txt_msg std_msgs/String "data: 'Test message'"  -1`
 5. The message should appear in the span field that we created for this purpose
 
+**Warning**: pay attention to the messages when you launch the websocket.launch. If after opening the website file you get an error `failing WebSocket opening handshake ('WebSocket connection denied: origin 'null' not allowed')` then scroll down to the bottom of the page where I offer a simple workaround to this issue.
+
 ### Publishing on a topic
 
 Before we implement a virtual joystick let's create a function that we will use to publish a robot velocity:
@@ -327,3 +329,13 @@ With some more effort you could turn it into something resembling the [Robosynth
 <figure class="center">
   <img src="/images/ros_tutorials/1_full_gui.png" alt="Robosynthesis User Interface">
 </figure>
+
+## Update: solving failing WebSocket opening handshake error
+
+It seems that rosbridge right now throws an error:
+```
+failing WebSocket opening handshake ('WebSocket connection denied: origin 'null' not allowed')
+```
+when you try to run your website directly from your disk ([GitHub issue](https://github.com/RobotWebTools/rosbridge_suite/issues/454)). To get rid of this error we can start a simple http server (you probably shouldn't run it in a production environment though).
+
+Let's navigate to the directory with the .html file in the terminal. As soon as you are in the correct directory we can start a Python http server using this command: `python -m SimpleHTTPServer`. Afterwards you should be able to go to `http://localhost:8000/` and you should see a directory listing containing your single gui.html file. Click on it and it should open your website wihtout Rosbridge complaining about origin 'null' not being allowed.
