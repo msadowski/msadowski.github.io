@@ -96,7 +96,7 @@ I hope that at this point you are wondering how we make this 360 view. The core 
     <figcaption>The original rviz_textured_sphere demo. Credit: Nuclear and Applied Robotics Group</figcaption>
 </figure>
 
-Since in the first prototype we have used USB cameras we have used standard UVC drivers for ROS. Unfortunately the cameras we used were suboptimal, providing a rectangular image for a circular image view. Because of that we had to post process the images to be rectangular and the fisheye view to appear in the center.
+Since in the first prototype we have used USB cameras we have used standard UVC drivers for ROS. Unfortunately the cameras we used were suboptimal, providing a rectangular image for a circular image view. Because of that we had to post process the images to be square and the fisheye view to appear in the center.
 
 Since we want the 360 camera view to be used by the operator, the hard requirement for us is a latency below 1 second. In this first prototype we saw around 500ms of latency with the 800x600px resolution for a single camera. In the next iteration I'd like to drive the latency down below 300ms while increasing the camera resolution. Stay tuned for the future updates!
 
