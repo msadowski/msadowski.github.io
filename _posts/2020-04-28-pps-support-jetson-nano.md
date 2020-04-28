@@ -148,10 +148,10 @@ source 0 - assert 1588064319.957913486, sequence: 4359 - clear  0.000000000, seq
 
 <figure class="center">
     <img src="/images/jetson_pps/jetson_ublox.jpg" alt="Jetson and Ublox">
-    <figcaption>My final goal in this integration is to receive PPS from <a href="https://www.ardusimple.com/">ArduSimple Rover</a> </figcaption>
+    <figcaption><a href="https://www.ardusimple.com/">ArduSimple simpleRTK2B</a> and Jetson Nano, almost ready for PPS triggering</figcaption>
 </figure>
 
-That should be it!
+That should be it! The setup you can see in the above picture worked well for the PPS input after connecting the antennas and powering everything up. Now, with some NMEA sentences being sent from the simpleRTK2B to the Jetson and some gpsd and chrony configurations I should be able to drive the clock of the Jetson.
 
 Hope these steps will save you a bit of time looking for the PPS solution, especially if like me it was the first time you were building a Kernel.
 
