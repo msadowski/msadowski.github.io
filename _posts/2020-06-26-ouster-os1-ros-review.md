@@ -76,7 +76,7 @@ If you need accurate timing then `TIME_FROM_PTP_1588` is the way to go. Software
 After making sure my launch files work with the sensor I've wanted to test some SLAM implementation. I ended up trying the sensor with [Cartographer](https://google-cartographer.readthedocs.io/en/latest/):
 
 {::nomarkdown}
-<iframe width="560" height="315" src="https://youtu.be/NuVm9Ge_NgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NuVm9Ge_NgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {:/nomarkdown}
 
 In my RVIZ settings, I've set the point cloud decay time to 4 seconds. As you can see the localization is not perfect but it’s not too bad, given I’ve used the default configuration from Ouster’s blog post on Cartographer integration.
