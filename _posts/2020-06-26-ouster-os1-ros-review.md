@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ouster OS1 - first impressions"
-description: ""
+description: "In this blog post I review 16 plane Ouster OS1 LiDAR and describe how I integrated it with Cartographer and show a workflow for extracting localized point clouds."
 modified: 2020-06-26
 comments: true
 tags: [Robotics, ROS]
