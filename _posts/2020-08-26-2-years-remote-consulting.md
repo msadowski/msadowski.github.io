@@ -55,7 +55,7 @@ Working with hardware is one of the most enjoyable parts of my job. This year, I
 At one point, I was approached by a client who wanted to create a certain type of robot that I’ve always dreamt of working with. The task would require me to liaise with manufacturers and developers to get the robot ready, and enable support for autonomous navigation in various terrain types. In short, a hugely challenging project that would immensely help me grow, whilst being super fun at the same time. When discussing the project in more detail, I noticed that the budget for this client was not an issue - any platform for any price was OK, as long as it met the requirements. However, when asking follow up questions, it became clear that the project target was to equip robots with weapons.
 
 <figure class="center">
-<video controls="controls">
+<video controls="controls" class="center" style="width:100%">
     <source src="/images/2_yr_consulting/bd.mp4" type="video/mp4">
 </video>
 <figcaption>The kind of project I’m not keen to work on. Source: <a href="https://www.youtube.com/watch?v=y3RIHnK0_NE">Bosstown Dynamics</a> (Corridor Digital)
