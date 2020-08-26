@@ -36,7 +36,7 @@ As a tangent to the consultations, I also help evaluate robotics funding proposa
 
 Every project I take on, I treat as my own. This results in me trying to solve issues before they happen, and sometimes even pushing back on client’s decisions - “How about we don’t remove this safety feature?”. Another side effect of treating the project as my own is that I put the client first, before my own business interest, meaning I might earn less for the project overall.
 
-As an example, I was hired to test the idea a client had for a robotic project. The idea turned out to be borderline feasible, with currently available technology, but potentially requiring lots of R&D work. If I sold the project as “no problem, it’s totally doable”, I would definitely get more work supporting the R&D work required. By putting the project and client’s interests first, however, we finished the project after the feasibility study and realised the extent of R&D work needed.
+As an example, I was hired to test the idea a client had for a robotic project. The idea turned out to be borderline feasible, with currently available technology, but potentially requiring lots of R&D work. If I sold the project as “no problem, it’s totally doable”, I would definitely get more work supporting the R&D work required. By putting the project and client’s interests first, however, we finished the project after the feasibility study, having realised the extent of R&D work needed.
 
 Since terminating such a project before going to an R&D phase is something I would do, I’m content and the client is most likely even more so, since they don’t have to spend lots of money, not understanding the R&D effort required. Instead, they can decide whether to pursue the idea further. If the client does decide to take a risk, they know that I’ll be there, ready to treat their project as my own, and providing honest advice, even if it means I get less work from it.
 
@@ -110,7 +110,7 @@ Freedom is one of the most important aspects of what I do. If I don’t work wit
 
 This freedom, however, comes with a price attached to it - if I’m not working, then I’m not making money. I don’t get bank holidays and if I get sick and can’t work, then I’m not earning either. These are the main reasons why I think working for oneself is not for everybody, especially when having no projects lined up, as it can become quite stressful.
 
-Being self-employed means that you are at the centre of your business. For me, this means that my physical and mental health are my number one priority. Examples of how I exercise these are:
+Being self-employed means that you are at the centre of your business. For me, this means that my physical and mental health are my number one priorities. Examples of how I exercise these are:
 * Three times a week, around 4pm, I do sports (normally, I go to the gym, but during the pandemic, I’ve been going for a run)
 * Practising meditation as the first thing I do in the morning
 * In case of health issues, I look to fix them without thinking twice about the money (being located in Europe is a huge advantage here as I know no doctor’s visit will ruin me, financially)
