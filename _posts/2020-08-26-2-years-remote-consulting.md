@@ -9,9 +9,10 @@ image:
   feature: M_consulting_cropped.png
 ---
 
-<!-- more -->
 
 It’s that time of year again when I’m thinking back on the journey I set up for myself by deciding to go into Robotics Consulting. This article is a follow up to the blog post I wrote [last year](https://msadowski.github.io/one-year-of-robotics-consulting/). This year, I’ve decided to try and cover the most important aspects of what I’m doing, and how it has been working out for me.
+
+<!-- more -->
 
 ## The work I had
 
