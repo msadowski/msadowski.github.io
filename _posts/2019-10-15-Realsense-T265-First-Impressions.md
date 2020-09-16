@@ -93,3 +93,11 @@ The fields you need to fill in in the calibration file are T and W vectors in ex
 I really like the idea behind the Realsense T265. Having an affordable sensor that can be easily integrated onto any robot would be a great thing to have. I think the T265 is going in the right direction, however I would let it mature before using it on a commercial system but I think it will get there and will provide a true 'plug&play' ROS experience, adhering to good ROS practices.
 
 Is there anything that I missed? Your feedback is highly valued so feel free to leave a comment! I'll be following the T265 development and try to update this post as needed.
+
+## Update
+
+It has been almost 1 year since I wrote this blog post. I was recently looking to integrate it on a robot. Unfortuantely there are two problems that prevented me from using it on the robot:
+* [Pose data is NaN](https://github.com/IntelRealSense/librealsense/issues/4518)
+* [Odometry drift when PoseJumping is disabled](https://github.com/IntelRealSense/librealsense/issues/5850#issuecomment-688791413)
+
+As you will see in the comments Intel is not planning to address any existing or new issues on T265 as they shifted focus to the new products. If you are making robots that have to run over long period of times with high accuracy I would advise to wait for the new products to come out before investing in T265.
