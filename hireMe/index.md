@@ -34,12 +34,7 @@ Below you will find highlights on the projects I've been working on over the yea
 
 ## Environmental outlook
 
-<figure class="half center">
-  <img src="{{site.url}}/images/Member_Logo.png" alt="1% For the Planet logo">
-  <!-- <figcaption>Livox scan patterns</figcaption> -->
-</figure>
-
-In January 2019 I joined [1% For The Planet](https://www.onepercentfortheplanet.org/), pledging to donate 1% of my revenue to environmental organizations.
+When I set up my activity I set out to donate 1% of my revenue to environmental organizations. To date I have supported 4 organizations.
 
 ## Get in touch
 
