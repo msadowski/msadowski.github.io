@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Plug&Play RTK with Septentrio Mosaic X-5 Dev Kit"
-description: "I've been doing some evaluation of Septentrio Mosaix X-5 dev kits lately. This blog post describes my experience fusing teh RTK output into ROS robot_localization."
+title: "Plug&Play RTK with Septentrio mosaic-X5 Dev Kit"
+description: "I've been doing some evaluation of Septentrio mosaic-X5 dev kits lately. This blog post describes my experience fusing teh RTK output into ROS robot_localization."
 modified: 2021-03-31
 comments: true
 tags: [Robotics, ROS]
@@ -41,10 +41,10 @@ What is also worth noting is the number of carriers that are supported. In my te
 
 <figure class="center">
     <img src="/images/septentrio/3d_printed_mount.jpeg" alt="Septentrio in 3D printed mount">
-    <figcaption>A mount I 3D printed to attach Mosaic Dev Kit to tripod and hold antenna</figcaption>
+    <figcaption>A mount I 3D printed to attach mosaic dev kit to tripod and hold antenna</figcaption>
 </figure>
 
-To run some integration tests with ROS I've decided to make two tripods, each carrying a Septentrio Mosaic kit, antenna, battery and a wireless router. One of the tripods is used as a base station, while the second one is used as a rover (I'll carry this one in hand when testing). Additionally, the rover has an IMU with a magnetometer attached next to the antenna.
+To run some integration tests with ROS I've decided to make two tripods, each carrying a Septentrio mosaic-X5 kit, antenna, battery and a wireless router. One of the tripods is used as a base station, while the second one is used as a rover (I'll carry this one in hand when testing). Additionally, the rover has an IMU with a magnetometer attached next to the antenna.
 
 <figure class="center">
     <img src="/images/septentrio/base_tripod.jpeg" alt="Tripod with base module and router">
@@ -135,8 +135,9 @@ When I mentioned Plug&Play in the title of this blog post I wasn't kidding. I li
 At the same time there are some features that I will be looking forward to testing in the future:
 
 * Using SECORX positioning service and/or NTRIP service integration for corrections
-* Enabling PPS and NTP server on the Mosaic's side
+* Enabling PPS and NTP server on the mosaic's side
 * Switching from NMEA output to SBF (Septentrio Binary Format) and testing [ROSaic driver](https://github.com/septentrio-gnss/septentrio_gnss_driver) or [mosaic_gnss_driver](https://github.com/Team-Abhiyaan/mosaic_gnss_driver)
 * Upgrading the firmware on Septentrio and running some more test on increased update rate (so far I've been outputting position at 10 Hz)
+* Eventually testing [mosaic-H](https://www.septentrio.com/en/products/gnss-receivers/rover-base-receivers/receivers-modules/mosaic-h) with dual antenna setup for receiving heading information
 
 Now, what would be a really, really interesting test? Taking this setup, adding a quality IMU and a LiDAR unit to it, creating a very precise 3D mapping module.
