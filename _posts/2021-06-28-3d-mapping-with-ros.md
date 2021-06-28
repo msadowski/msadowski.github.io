@@ -47,6 +47,11 @@ I've received Mid-40 from Livox over 2 years ago and described my initial though
 
 #### Xsens MTi-630-DK
 
+<figure class="center">
+    <img src="/images/3d_mapping/xsens.jpg" alt="Xsens IMU">
+    <figcaption>MTi-630-DK mounted on the prototype frame</figcaption>
+</figure>
+
 [Xsens](https://www.xsens.com/) was very kind to loan me an evaluation unit of MTi-630-DK for my demonstrator, even though the initial phase of the project took me way longer than anticipated. The main feature I was after in the IMU was as precise globally referenced heading as I could get. The better the IMU the less angular drift I would expect to see in my data.
 
 In the video I've shared in the previous section you can see me testing the first prototype in a room running just the MTi IMU and the Mid-40. I used double sided-tape to attach the IMU to the top of the LiDAR, created a simple URDF file with correct offset between frames and voila! By slowly rotating the LiDAR in place I was able to scan the room. Let's take a look at it again:
