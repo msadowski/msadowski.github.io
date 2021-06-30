@@ -30,7 +30,7 @@ I've been interested in developing a proof of concept system for mapping (either
 Here is the list of hardware that I had access to for this project:
 
 - 2x [Septentrio Mosaic X-5 dev kit](https://shop.septentrio.com/en/shop/mosaic-h-gnss-heading-module-evaluation-kit-2-gnss-antennae) - precise GNSS modules in RTK setup
-- [Xsens MTi-630-DK](https://www.xsens.com/products/mti-600-series) - IMU (a precise magnetometer was a must-have for the prototype)
+- [Xsens MTi-630-DK](https://www.xsens.com/products/mti-600-series) - AHRS (a precise magnetometer was a must-have for the prototype)
 - [Livox Mid-40 LiDAR](https://www.livoxtech.com/mid-40-and-mid-100)
 - Two Mikrotik routers
 
@@ -48,13 +48,13 @@ I've received Mid-40 from Livox over 2 years ago and described my initial though
 #### Xsens MTi-630-DK
 
 <figure class="center">
-    <img src="/images/3d_mapping/xsens.jpg" alt="Xsens IMU">
+    <img src="/images/3d_mapping/xsens.jpg" alt="Xsens AHRS">
     <figcaption>MTi-630-DK mounted on the prototype frame</figcaption>
 </figure>
 
-[Xsens](https://www.xsens.com/) was very kind to loan me an evaluation unit of MTi-630-DK for my demonstrator, even though the initial phase of the project took me way longer than anticipated. The main feature I was after in the IMU was as precise globally referenced heading as I could get. The better the IMU the less angular drift I would expect to see in my data.
+[Xsens](https://www.xsens.com/) was very kind to loan me an evaluation unit of MTi-630-DK for my demonstrator, even though the initial phase of the project took me way longer than anticipated. The main feature I was after in the IMU/AHRS was as precise globally referenced heading as I could get. The better the AHRS the less angular drift I would expect to see in my data.
 
-In the video I've shared in the previous section you can see me testing the first prototype in a room running just the MTi IMU and the Mid-40. I used double sided-tape to attach the IMU to the top of the LiDAR, created a simple URDF file with correct offset between frames and voila! By slowly rotating the LiDAR in place I was able to scan the room. Let's take a look at it again:
+In the video I've shared in the previous section you can see me testing the first prototype in a room running just the MTi and the Mid-40. I used double sided-tape to attach the unit to the top of the LiDAR, created a simple URDF file with correct offset between frames and voila! By slowly rotating the LiDAR in place I was able to scan the room. Let's take a look at it again:
 
 <figure class="center">
 <video controls="controls" class="center" style="width:100%">
@@ -73,7 +73,7 @@ Do you see an issue with the 3D map being created? As the LiDAR is turning left 
 
 In my hastily prepared prototype, I assumed that the Mid-40 origin is in the centre of the LiDAR, while according to the docs the origin of the LiDAR is flushed with the front face of the unit. Oh well, it'll be fixed in the next iteration that will include the next sensor.
 
-And if you are thinking now "hey, Mat, won't placing the sensor so close to some moving parts, that are undoubtedly magnetic and surely inside the LiDAR, affect the sensor readings?" then you are right. Even though I couldn't see it when looking at RVIZ data, much later I noticed that turning on LiDAR affected the magnetometer reading that was fused by the IMU for the orientation estimation.
+And if you are thinking now "hey, Mat, won't placing the sensor so close to some moving parts, that are undoubtedly magnetic and surely inside the LiDAR, affect the sensor readings?" then you are right. Even though I couldn't see it when looking at RVIZ data, much later I noticed that turning on LiDAR affected the magnetometer reading that was fused by the AHRS for the orientation estimation.
 
 #### Septentrio Mosaic X-5
 
