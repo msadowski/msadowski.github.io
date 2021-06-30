@@ -52,7 +52,7 @@ I've received Mid-40 from Livox over 2 years ago and described my initial though
     <figcaption>MTi-630-DK mounted on the prototype frame</figcaption>
 </figure>
 
-[Xsens](https://www.xsens.com/) was very kind to loan me an evaluation unit of MTi-630-DK for my demonstrator, even though the initial phase of the project took me way longer than anticipated. The main feature I was after in the IMU/AHRS was as precise globally referenced heading as I could get. The better the AHRS the less angular drift I would expect to see in my data.
+[Xsens](https://www.xsens.com/) was very kind to lend me an evaluation unit of MTi-630-DK for my demonstrator, even though the initial phase of the project took me way longer than anticipated. The MTi-630 is an Attitude and Heading Reference System (AHRS) as it runs on-board sensor fusion algorithms that estimate absolute 3D orientation, in this blog post I'm using IMU and AHRS interchangeably. The main feature I was after in the IMU/AHRS was as precise globally referenced heading as I could get. The better the AHRS the less angular drift I would expect to see in my data.
 
 In the video I've shared in the previous section you can see me testing the first prototype in a room running just the MTi and the Mid-40. I used double sided-tape to attach the unit to the top of the LiDAR, created a simple URDF file with correct offset between frames and voila! By slowly rotating the LiDAR in place I was able to scan the room. Let's take a look at it again:
 
