@@ -73,7 +73,7 @@ Stay tuned for more information!
 For the sake of completeness, here is what I used in the setup described above:
 
 - Mission-D RC car from [HobbyKing](https://hobbyking.com/en_us/1-10-hobbykingr-mission-d-4wd-gtr-drift-car-arr.html?___store=en_us)
-- R/C Transmitter - I used Taranis ([Amazon ref lienk](https://amzn.to/2KtY2E5))
+- R/C Transmitter - I used Taranis ([Amazon ref link](https://amzn.to/2KtY2E5))
 - R/C Receiver ([Amazon ref link](https://amzn.to/2lIxWTg))
 - 2S 2200mAh battery with XT60 connector ([Amazon ref link](https://amzn.to/2Kxy4jj))
 - XT60 connectors ([Amazon ref link](https://amzn.to/2Kr4QWf))
