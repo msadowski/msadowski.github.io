@@ -2,7 +2,7 @@
 layout: post
 title: "Remote Robotics Consulting - 3.5 Years In"
 description: "It's time for yet another reflection and thinking back on the life of a robotics consultant. In this blog post I reflect back on the clients and work that I did and try to find balance during pandemic. It is my hope that some will find inspiration in my journey."
-modified: 2020-10-31
+modified: 2021-10-31
 comments: true
 tags: [Robotics]
 image:
