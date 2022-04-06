@@ -32,16 +32,6 @@ Below you will find highlights on the projects I've been working on over the yea
 * Architecture and development of ROS based modular mobile robot
 * Development of a handheld mapping device for creation of 2D floor plans
 
-## Environmental outlook
-
-When I set up my activity I set out to donate 1% of my revenue to environmental organizations. To date I have supported 4 organizations.
-
 ## Get in touch
 
-You can get in touch with me by sending me an [e-mail](mailto:contact@msadowski.ch). If you would like to work through an intermediary then I'm present at [UpWork](https://www.upwork.com/o/profiles/users/~0196b3ccb97605e632/), where I am a Top Rated freelancer and hold a 100% job success score. Feel free to send me an e-mail for more details.
-
-<figure class="half center">
-  <a href="https://www.upwork.com/o/profiles/users/~0196b3ccb97605e632/">
-  <img src="{{site.url}}/images/UpWork-Top-Rated.jpg" alt="UpWork top rated badge">
-  </a>
-</figure>
+You can get in touch with me by sending me an [e-mail](mailto:contact@msadowski.ch) or getting in touch on [LinkedIn](https://www.linkedin.com/in/mateuszsadowski/).
