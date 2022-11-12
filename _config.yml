@@ -38,7 +38,6 @@ owner:
   name:           Mateusz Sadowski
   site:           https://msadowski.github.io/
   avatar:         images/avatar_face.jpg
-  bio:            "Robotics consultant"
   email:          mat@msadowski.ch
   # Twitter nick for use in Twitter cards and follow button.
   #twitter: msadowski90 # if no twitter in this config, the twitter follow button will be removed

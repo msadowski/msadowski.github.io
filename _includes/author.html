@@ -6,14 +6,15 @@
     <h3>{{site.owner.name}}</h3>
     <div class="author-container">
       <img class="author-img" src="{{site.url}}/{{site.owner.avatar}}" alt="{{site.owner.name}}" />
-      <div class="author-bio">{{site.owner.bio}}
+      <div class="author-bio">
+        Mat is a Robotics consultant and the author of <a href="https://www.manning.com/liveprojectseries/build-mobile-robots-with-ROS2?utm_source=mateusz&utm_medium=affiliate&utm_campaign=liveproject_sadowski_build_5_6_22&a_aid=mateusz&a_bid=a308c7c4">Build Mobile Robots with ROS 2</a> LiveProject series.
         <!-- <div class="author-share"> -->
           <ul class="list-inline social-buttons">
             {% for network in site.social %}
               <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
             {% endfor %}
           </ul>
-        </div>  
+        </div>
       <!-- </div> -->
     </div>
   </div>
