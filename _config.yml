@@ -56,7 +56,7 @@ social:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: "UA-87315483-1"
+# google_analytics: "UA-87315483-1"
 google_verify: "vcSi7rWmNKpuKVwfd6dE6Ax7Bk2NEKitUHrCeML4oR0"
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify: "8EF645298A68D9B0CB7B415C6A3A4500"
