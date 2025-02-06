@@ -106,7 +106,7 @@ Often, the rooms are packed! If you find yourself going to a talk that might be 
 
 When we organized the room, we asked the speakers to upload their slides to Pretalx. This meant that the slides showed up in the talk description and as an attendee you could download it and make notes right there on the slides. If I just had my tablet with me!
 
-## List of robotics-adjecnt talks throughout FOSDEM history
+## List of robotics-adjecent talks throughout FOSDEM history
 
 2016
 * [Simulating Humanoid Robots in the Cloud: the testing behind the biggest world competition](https://archive.fosdem.org/2016/schedule/event/testing_robots_in_the_cloud/)
