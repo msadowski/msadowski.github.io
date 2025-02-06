@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Roboticist Visits FOSDEM 2025"
-description: "In February 2025, we organized the first Robotics devroom at FOSDEM. This blog post describes my experience as a first-time FOSDEM attendee and devroom organizer."
+description: "In February 2025, we organized the first Robotics devroom at FOSDEM. This blog post describes my experience as a first-time FOSDEM attendee and room organizer."
 modified: 2025-02-06
 comments: true
 tags: [Robotics]
@@ -48,18 +48,18 @@ Below is a short list of talks that I found interesting and attended:
 * [The whole Robotics and Simulation track](https://fosdem.org/2025/schedule/track/robotics/)
 * [SatNOGS-COMMS: An Open-Source Communication Subsystem for CubeSats](https://fosdem.org/2025/schedule/event/fosdem-2025-6024-satnogs-comms-an-open-source-communication-subsystem-for-cubesats/) - stepping outside of my comfort zone and going more embedded. Some very interesting lessons learned about using Zephyr-RTOS
 * [The road to open source General Purpose Humanoids with dora-rs](https://fosdem.org/2025/schedule/event/fosdem-2025-5525-the-road-to-open-source-general-purpose-humanoids-with-dora-rs/) - very nice demo with Pollen Robotics Reachy robot and, hopefully, a step towards general robots
-* [Exploring Open Source Dual A/B Update Solutions for Embedded Linux](https://fosdem.org/2025/schedule/event/fosdem-2025-6299-exploring-open-source-dual-a-b-update-solutions-for-embedded-linux/) - good overview on strategies for reasonable firmware update workflows and overview on whats out there
+* [Exploring Open Source Dual A/B Update Solutions for Embedded Linux](https://fosdem.org/2025/schedule/event/fosdem-2025-6299-exploring-open-source-dual-a-b-update-solutions-for-embedded-linux/) - good overview on strategies for reasonable firmware update workflows and overview on what's out there
 * [Discovering the Magic Behind OpenTelemetry Instrumentation](https://fosdem.org/2025/schedule/event/fosdem-2025-4146-discovering-the-magic-behind-opentelemetry-instrumentation/) - trying to expand my horizons on logging. Implementing this with ROS would make a really nice side project
-* [What can PyArrow do for you - Array interchange, storage, compute and transport](https://fosdem.org/2025/schedule/event/fosdem-2025-6092-what-can-pyarrow-do-for-you-array-interchange-storage-compute-and-transport/) - I've heard of Arrow quite a bit lately and I'm excited to look more into its IPC capabilities and zero-copy approach. Did you know that with Arrow you can seamlessly switch between Numpy, Pandas and other libraries with zero-copy using Arrow?
+* [What can PyArrow do for you - Array interchange, storage, compute and transport](https://fosdem.org/2025/schedule/event/fosdem-2025-6092-what-can-pyarrow-do-for-you-array-interchange-storage-compute-and-transport/) - I've heard of Arrow quite a bit lately and I'm excited to look more into its IPC capabilities and zero-copy approach. Did you know that with Arrow you can seamlessly switch between Numpy, Pandas, and other libraries with zero-copy using Arrow?
 * [Programming ROS 2 with Rust](https://fosdem.org/2025/schedule/event/fosdem-2025-6548-programming-ros-2-with-rust/) - Julia made a nice presentation in the Rust room on using ROS 2 with Rust
-* [Lessons from rewriting systems software in Rust](https://fosdem.org/2025/schedule/event/fosdem-2025-5088-lessons-from-rewriting-systems-software-in-rust/) - Some interesting insights on rewritting software that I believe does not only apply to Rust. One point that drove it home was depending on other's people code
+* [Lessons from rewriting systems software in Rust](https://fosdem.org/2025/schedule/event/fosdem-2025-5088-lessons-from-rewriting-systems-software-in-rust/) - Some interesting insights on rewriting software that I believe does not only apply to Rust. One point that drove it home was depending on other's people code
 
 <figure class="center">
     <img src="/images/fosdem2025/reachy.jpg" alt="Reachy Robot by Pollen robotics">
     <figcaption>Reachy used for a demo in the dora-rs presentation</figcaption>
 </figure>
 
-Here is a list of talks I didn't get to see but that I'll catch-up on once the videos are available:
+Here is a list of talks I didn't get to see but that I'll catch up on once the videos are available:
 
 * [Zephyr RTOS Roasting Party](https://fosdem.org/2025/schedule/event/fosdem-2025-5760-zephyr-rtos-roasting-party/)
 * [Using embedded Rust to build an unattended, battery-powered device](https://fosdem.org/2025/schedule/event/fosdem-2025-6300-using-embedded-rust-to-build-an-unattended-battery-powered-device/)
@@ -86,17 +86,17 @@ This year, while organizing the Robotics and Simulation devroom, we received 24 
 
 Some advice for next year's applicants:
 
-* Make sure your talk is related to open-source or is of great interest to community
+* Make sure your talk is related to open-source or is of great interest to the community
 * If your talk involves robots or robotic operations, your proposal will be much stronger if you are already beyond the simulation stage and have deployed things on real hardware
-* Make a super high-quality proposal. You are competing for a speaking slot with world-class roboticsists, a two-sentence abstract won't cut it, no matter the reputation of your project
+* Make a super high-quality proposal. You are competing for a speaking slot with world-class roboticists, a two-sentence abstract won't cut it, no matter the reputation of your project
 * Include links to your repository. It helps if it's actively maintained
 * Don't use AI to write your proposal (reviewers can often tell, and you get huge minus points for that)
 
-### Accomodation
+### Accommodation
 
-I booked the accomodation within walking distance to the venue thinking it makes perfect sense to be as close to it as possible. It turns out the right question to ask yourself is: are you going to hang out with someone after the event and if you do, where will it happen and would you prefer to commute early in the morning or at night.
+I booked the accommodation within walking distance of the venue, thinking it made perfect sense to be as close to it as possible. It turns out the right question to ask yourself is: Are you going to hang out with someone after the event? If you do, where will it happen? Would you prefer to commute early in the morning or at night?
 
-On Friday and Saturday I ended up spending the evenings near the city centre of Brussels with my fellow co-organizers and had to commute back at night towards the campus. In hindsight, I would prefer to sleep closer to the center and get to campus early.
+On Friday and Saturday, I spent the evenings near the city center of Brussels with my fellow co-organizers and had to commute back at night towards the campus. In hindsight, I would prefer to sleep closer to the center and get to campus early.
 
 ### Making it to see the talks
 
@@ -104,9 +104,9 @@ Often, the rooms are packed! If you find yourself going to a talk that might be 
 
 ### Taking notes
 
-When we organized the room, we asked the speakers to upload their slides to Pretalx. This meant that the slides showed up in the talk description and as an attendee you could download it and make notes right there on the slides. If I just had my tablet with me!
+When we organized the room, we asked the speakers to upload their slides to Pretalx. This meant that the slides showed up in the talk description and as an attendee, you could download it and make notes right there on the slides. If I just had my tablet with me!
 
-## List of robotics-adjecent talks throughout FOSDEM history
+## List of robotics-adjacent talks throughout FOSDEM history
 
 2016
 * [Simulating Humanoid Robots in the Cloud: the testing behind the biggest world competition](https://archive.fosdem.org/2016/schedule/event/testing_robots_in_the_cloud/)
