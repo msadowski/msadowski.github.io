@@ -23,6 +23,11 @@ Last year, Kimberly McGuire approached me about organizing a robotics devroom at
 * [Lucas Chiesa (Ekumen)](https://www.linkedin.com/in/lucaschiesa/)
 * [Mat Sadowski (me)](https://www.linkedin.com/in/mateuszsadowski/)
 
+<figure class="center">
+    <img src="/images/fosdem2025/organizers.jpg" alt="Header Image of our Devroom">
+    <figcaption>Organizers of the Robotics and Simulation Devroom</figcaption>
+</figure>
+
 and just like that, I set off for a [Club Mate](https://en.wikipedia.org/wiki/Club-Mate#Culture)-fueled endeavor where hackers meet open-source—or should I say, make open-source possible.
 
 What sets FOSDEM apart from other conferences I attended in the last couple of years is the fact that the event is free to attend. I think it does not get more open-source than this.
