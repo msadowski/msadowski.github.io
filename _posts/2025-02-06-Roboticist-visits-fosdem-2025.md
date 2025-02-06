@@ -75,7 +75,7 @@ Here is a list of talks I didn't get to see but that I'll catch up on once the v
 
 ## Tips&Tricks
 
-### Want to be a speaker? Make a quality proposal
+### High Quality Proposals Wanted
 
 <figure class="center">
     <img src="/images/fosdem2025/robbie.jpg" alt="An image of a Robot Leaflet">
@@ -86,11 +86,10 @@ This year, while organizing the Robotics and Simulation devroom, we received 24 
 
 Some advice for next year's applicants:
 
-* Make sure your talk is related to open-source or is of great interest to the community
-* If your talk involves robots or robotic operations, your proposal will be much stronger if you are already beyond the simulation stage and have deployed things on real hardware
 * Make a super high-quality proposal. You are competing for a speaking slot with world-class roboticists, a two-sentence abstract won't cut it, no matter the reputation of your project
-* Include links to your repository. It helps if it's actively maintained
 * Don't use AI to write your proposal (reviewers can often tell, and you get huge minus points for that)
+* Include links to your repository. It helps if it's actively maintained
+* It's always a good idea to submit a link to your repository in the proposal. It's great if it shows some history of development and it's not just a handful of commits
 
 ### Accommodation
 
