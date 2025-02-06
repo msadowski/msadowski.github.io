@@ -24,7 +24,7 @@ Last year, Kimberly McGuire approached me about organizing a robotics devroom at
 * [Mat Sadowski (me)](https://www.linkedin.com/in/mateuszsadowski/)
 
 <figure class="center">
-    <img src="/images/fosdem2025/organizers.jpg" alt="Header Image of our Devroom">
+    <img src="/images/fosdem2025/organizers.jpg" alt="Devroom organizers">
     <figcaption>Organizers of the Robotics and Simulation Devroom</figcaption>
 </figure>
 
