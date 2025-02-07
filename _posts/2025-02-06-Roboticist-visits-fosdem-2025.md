@@ -88,7 +88,6 @@ Some advice for next year's applicants:
 
 * Make a super high-quality proposal. You are competing for a speaking slot with world-class roboticists, a two-sentence abstract won't cut it, no matter the reputation of your project
 * Don't use AI to write your proposal (reviewers can often tell, and you get huge minus points for that)
-* Include links to your repository. It helps if it's actively maintained
 * It's always a good idea to submit a link to your repository in the proposal. It's great if it shows some history of development and it's not just a handful of commits
 
 ### Accommodation
