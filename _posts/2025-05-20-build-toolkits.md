@@ -9,8 +9,6 @@ image:
   feature: toolkit/power_user_interface.png
 ---
 
-Build Toolkits
-
 Recently, I’ve been thinking about some good practices in robotics software development and realized that one of the most impactful is the one I learned early on. The lesson is: **Build Toolkit(s)**.
 
 <!-- more -->
