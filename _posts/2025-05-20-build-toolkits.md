@@ -37,7 +37,7 @@ SkyCircuits Toolkit was a power user interface that allowed plotting data in rea
 I didn’t realize it at the time, but this was a lesson that stuck with me. And 'Toolkit' is such a great name that I always tend to use it.
 
 > “... and we will build a power-user interface exposing all our parameters, and we are going to call it Toolkit”
-<p style="text-align:right">Me on at least two occasions with two different clients</p>
+<p style="text-align:right">Me, on at least two occasions with two different clients</p>
 
 ## Create software for power-users
 
